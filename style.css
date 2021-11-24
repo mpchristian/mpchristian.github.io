@@ -5,16 +5,17 @@ body {
     color:  black;
     text-align: justify;
     font-family: 'Baloo Da 2';
-    padding: 0 30px;
 }
 
 h1 {
     text-align: center;
+    margin: 90px 0;
 }
 
 h2 {
     font-size: 1.5em;
     color: rgb(70, 70, 70);
+    text-align: center;
 }
 
 h3 {
@@ -32,5 +33,56 @@ p, ul {
 
 .photo {
     border-radius: 40%;
-    float: left;
+    left: 500px;
 }
+
+/* <!-- ---------------------------------------------- --> */
+
+#aboutme-sec {
+    border: 3px solid red;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#aboutme-description {
+    /* border: 3px solid red; */
+    position: relative;
+    width: 450px;
+    left: 160px;
+}
+
+
+/* <!-- ---------------------------------------------- --> */
+
+#qualities-sec {
+    border: 3px solid red;
+    padding: 0px;
+    height: 450px;
+}
+
+#qualities-description {
+    /* border: 3px solid red; */
+    width: 450px;
+    margin: 0 auto;
+}
+
+#qualities-list {
+    display: table;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+}
+
+/* <!-- ---------------------------------------------- --> */
+
+#skills-sec {
+    border: 3px solid red;
+    height: 450px;
+    display: table;
+    margin: 0 auto;
+}
+
+#skills-title {
+    text-align: center;
+}
+
