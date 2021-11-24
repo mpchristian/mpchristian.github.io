@@ -5,6 +5,11 @@ body {
     color:  black;
     text-align: justify;
     font-family: 'Baloo Da 2';
+    padding: 0 30px;
+}
+
+h1 {
+    text-align: center;
 }
 
 h2 {
@@ -25,6 +30,7 @@ p, ul {
     font-size: 20px;
 }
 
-.pictures {
+.photo {
     border-radius: 40%;
+    float: left;
 }
