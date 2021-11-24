@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Gloria+Hallelujah&display=swap');
 
 body {
-    background: white;
-    color:  black;
+    color: black;
     text-align: justify;
     font-family: 'Baloo Da 2';
 }
@@ -14,7 +13,8 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-    color: rgb(70, 70, 70);
+    /* color: rgb(70, 70, 70); */
+    color: black;
     text-align: center;
 }
 
@@ -24,7 +24,8 @@ h3 {
 
 a {
     text-decoration: none;
-    color: rgb(70, 70, 70);;
+    /* color: rgb(70, 70, 70); */
+    color: black;
 }
 
 p, ul {
@@ -33,7 +34,7 @@ p, ul {
 
 .photo {
     border-radius: 40%;
-    left: 500px;
+    border-collapse: collapse;
 }
 
 /* <!-- ---------------------------------------------- --> */
@@ -52,6 +53,16 @@ p, ul {
     left: 160px;
 }
 
+#aboutme-photo {
+    /* border: 3px solid red; */
+    position: relative;
+    right: 190px;
+    bottom: 300px;
+}
+li:hover {
+    background-color: black;
+    color: white;
+}
 
 /* <!-- ---------------------------------------------- --> */
 
@@ -80,6 +91,7 @@ p, ul {
     height: 450px;
     display: table;
     margin: 0 auto;
+    padding-bottom: 0px;
 }
 
 #skills-title {
